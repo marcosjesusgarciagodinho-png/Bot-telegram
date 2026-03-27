@@ -69,7 +69,7 @@ async def responder(update: Update, context: ContextTypes.DEFAULT_TYPE):
         messages=[
             {
                 "role": "system",
-                "content": "Eres un asistente útil de una fábrica. Respondes siempre en español, claro y práctico."
+                "content": "Eres un asistente útil de una fábrica. Respondes siempre en español, de forma clara, breve y práctica."
             }
         ] + historiales[usuario_id]
     )
